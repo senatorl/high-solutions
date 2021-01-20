@@ -1,0 +1,10 @@
+<mat-card class="post-card mat-elevation-z2">
+  <mat-card-header color="primary" align="start">
+    <mat-card-title>{{ post.title }}</mat-card-title>
+    <mat-card-subtitle>{{ post.author }}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="{{ post.image }}" alt="{{ post.title }}" />
+  <mat-card-content>
+    <p>id:{{ post.id }}</p>
+  </mat-card-content>
+</mat-card>
